@@ -46,7 +46,8 @@ Vue.component('edit-form', {
 
 // TODO: Componente item-data
 Vue.component('item-data', {
-
+    template: '#itemData',
+   
 })
 
 // Aplicación VueJS
@@ -57,4 +58,6 @@ var app = new Vue({
         col: server_data
     }
 });
+
+
 
