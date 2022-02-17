@@ -14,6 +14,7 @@
 
         <h1 id="autor">Autor: JOSÉ DAVID GÓMEZ GALLEGO</h1>
 
+
         <div id="app">
           <div class="jumbotron" style="margin-left:10px;">
             <h1 class="display" id="title">{{col.collection.title}}</h1>
@@ -40,6 +41,8 @@
             
               <a class="btn btn-primary" v-bind:href="item.href" role="button">Ver</a>
               <button class="btn btn-secondary"  v-on:click="toggleEditFormVisibility" >Editar</button>
+
+              
           </div>
           <div class="card-body " v-show="edicion">
             <dl v-for="c in item.data">
